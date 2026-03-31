@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro relatorioPF = 40 
+    inteiro relatorioPJ = 33 
+    real tempoPF = 12 
+    real tempoPJ = 42
+    real valortotalPF = 2350
+    real valortotalPJ = 8900
+    inteiro totalRelatorios = relatorioPF + relatorioPJ
+    real tempoTotal = tempoPF + tempoPJ
+    real valorRecebido = valortotalPF + valortotalPJ 
+real valorMedioPF = valortotalPF / relatorioPF
+real valorMedioPJ = valortotalPJ / relatorioPJ
+escreva("A quantidade total de relatórios foi de " + totalRelatorios + "\n")
+escreva("O tempo total foi de " + tempoTotal + "\n")
+escreva("O valor total recebido foi de " + valorRecebido + "\n")
+escreva("O valor medio Pf foi de " + valorMedioPF + "\n")
+escreva("O valor medio PJ foi de " + valorMedioPJ + "\n")
+  }
+}
