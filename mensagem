@@ -1,0 +1,8 @@
+programa {
+  funcao inicio() {
+    cadeia senha 
+    escreva("digite uma senha:")
+    leia (senha)
+    se(senha=="abracadabra"){escreva("*****")}
+  }
+}
