@@ -10,9 +10,21 @@
 // nome = prompt("digite seu nome:")
 // alert("O nome digitado foi:"+ nome)
 
+// let nota1 
+// nota1 = prompt("Digite sua primeira nota aqui: ")
+// nota1= Number()
+// nota1= nota1+1
+// alert(nota1)
 
-let nota1 
-nota1 = prompt("Digite sua primeira nota aqui: ")
-nota1= Number()
-nota1= nota1+1
-alert(nota1)
+// let vitorias, empates 
+// let pontos
+ 
+// empates= Number(prompt("empates:"))
+// pontos = vitorias*3 + empates 
+// alert("total de pontos:" + pontos)
+
+let preço, troca 
+let valorDeTroca
+
+preço=Number(prompt("Qual é o valor de cada par:"))
+troca=Number(prompt("Digite a quantidade de pares:"))
