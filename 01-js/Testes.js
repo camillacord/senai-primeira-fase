@@ -15,6 +15,9 @@
 // nota1= Number()
 // nota1= nota1+1
 // alert(nota1)
+ 
+
+//ATIVIDADE peba js:
 
 // let vitorias, empates 
 // let pontos
@@ -23,8 +26,22 @@
 // pontos = vitorias*3 + empates 
 // alert("total de pontos:" + pontos)
 
-let preço, troca 
-let valorDeTroca
+// ATIVIDADE pé pequeno js:
+// let preço, troca 
+// let valorDeTroca
 
-preço=Number(prompt("Qual é o valor de cada par:"))
-troca=Number(prompt("Digite a quantidade de pares:"))
+// preço=Number(prompt("Qual é o valor de cada par:"))
+// troca=Number(prompt("Digite a quantidade de pares:"))
+
+// valorDeTroca = preco*troca
+// console.log("A quantidade recebida em vale trocas vai ser de: R$" + valorDeTroca )
+
+
+// // ATIVIEDADE projeto Pomar js
+
+// let inicialLaranjas, finalLaranjas, quantidadeTotal
+
+// inicialLaranjas=Number(prompt("Digite aqui a quantidade de laranjas para venda:"))
+// finalLaranjas=Number(prompt("Digite aqui a quantidade final de laranjas no fim do dia "))
+
+// quantidadeTotal=
