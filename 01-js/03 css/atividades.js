@@ -103,4 +103,34 @@ function salario(){
 
   document.getElementById("resultado").innerHTML = "O valor recebido por dia é de R$" + valorDia
 }
+function calculoIdade(){
+  let resposta = document.getElementById("resultado")
+  let idade 
+  
+  idade= Number(prompt("digite aqui sua idade:"))
 
+  if(idade>18){resposta.innerHTML = "você é maior de idade"} 
+  else{resposta.innerHTML="você não é maior de idade"}
+
+}
+let resposta = document.getElementById("resultado")
+
+function adivinha(){
+       
+  let numero = Math.ceil(Math.random()*3)
+
+ let chute = Number(prompt("Digite um número de 0 a 10 aqui:"))
+
+    if (numero==chute){ resposta.innerHTML= "você acertou!!"} 
+    else{resposta.innerHTML="você errou, tente novamente mais tarde..."}
+     }
+  
+function comparacao(){
+      let numeroUm, numeroDois 
+
+      numeroUm = Number(prompt("Digite aqui um número:"))
+      numeroDois = Number(prompt("Digite outro número aqui:"))
+
+    if (numeroUm>numeroDois){ resposta.innerHTML="o " + numeroUm + "é maior!"}
+    else{ resposta.innerHTML= "o "+numeroDois+ "é maior"}
+  }
