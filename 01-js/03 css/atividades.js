@@ -134,3 +134,51 @@ function comparacao(){
     if (numeroUm>numeroDois){ resposta.innerHTML="o " + numeroUm + "é maior!"}
     else{ resposta.innerHTML= "o "+numeroDois+ "é maior"}
   }
+
+  function verificarMeta(){
+
+ let totalBruto, premiacoes, comissoes, lucro, meta, mensagem 
+
+ totalBruto = Number(prompt("Total bruto:"))
+ premiacoes = Number(prompt("Premiações:"))
+ comissoes = Number(prompt("Comissões:"))
+ meta = Number(prompt("Meta de hoje:"))
+
+ lucro= totalBruto - comissoes - premiacoes
+
+ if(lucro>= meta){ 
+mensagem= "Batemos a meta, lucro de R$"+lucro.toFixed(2).replace(".",",")}
+ else {
+ if(lucro>0){
+mensagem="Não batemos a meta, mas tivemos lucro de R$" + lucro.toFixed(2).replace(".",",")
+ } else{ 
+ let prejuizo = lucro*-1
+  mensagem = "Não batemos a mesta e ainda ficamos com saldo negativo de R$" + prejuizo.toFixed(2).replace(".",",")
+}
+ }
+ resposta.innerHTML= " <br>Lucro de hoje: R$" + lucro.toFixed(2).replace(".",",") + "<br>"+ mensagem
+
+  }
+
+  function alertaLaranja(){
+
+    let laranjaInicial, laranjaFinal, laranjasVendida, mensagem
+
+    laranjaInicial= Number(prompt(" Digite aqui a quantidade inicial de laranjas para venda:"))
+    laranjaFinal = Number(prompt("Digite aqui a quantidade de laranjas que sobraram no fim do dia:"))
+
+    laranjasVendida = laranjaInicial - laranjaFinal
+
+    
+    if(laranjasVendida == laranjaInicial){ 
+      mensagem = " O estoque precisa ser maior para o restante da semana!!!"}
+      else{
+        mensagem= "Ótimas vendas "
+      }
+
+    resposta.innerHTML= "A quantidade total de laranjas vendidas no dia foi de: " + laranjasVendida + mensagem
+
+
+
+
+  }
