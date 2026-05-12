@@ -182,3 +182,33 @@ mensagem="Não batemos a meta, mas tivemos lucro de R$" + lucro.toFixed(2).repla
 
 
   }
+
+  function calculoDeDistancia(){
+
+    let distancia, tempoSegundos, tempoMinutos
+    const velocidadeLuz = 300000
+
+    distancia = Number(prompt("Digite aqui a distância até o destino final:"))
+    tempoSegundos = distancia/ velocidadeLuz
+
+    resposta.innerHTML = "Tempo em segundos:" + tempoSegundos
+    if(tempoSegundos>60){tempoMinutos = tempoSegundos/60
+      resposta.innerHTML += "Ou" + tempoMinutos + "minutos(s)"
+    }
+    if (tempoMinutos>60){
+      tempoHoras = tempoMinutos/60
+      resposta.innerHTML = 
+    }
+
+     
+
+    
+
+
+  }
+
+  function calculoJares(){
+    let quantidadeCaminhoes 
+
+
+  }
